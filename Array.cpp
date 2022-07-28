@@ -73,7 +73,7 @@ void Array::PrintArraySumDynamic()
 	int* arr1 = new int[3];
 	int* arr2 = new int[3];
 	int* arr = new int[3];
-	int i;
+	int i; 
 
 	memset(arr1, 0, sizeof(int) * 3);
 
