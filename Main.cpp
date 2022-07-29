@@ -122,9 +122,7 @@ int main()
 
 //main of DesignPattern Class:
 		DesignPattern::PrintSingleton();
-		DesignPattern2::PrintFactoryMethod();
-		DesignPattern3::PrintAbstractMethod();
-
+		
 		system("pause");
 		return 0;
 }
