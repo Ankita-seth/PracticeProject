@@ -54,7 +54,9 @@ int main()
 	//Construct::SmartPhone smartphone;
 
 	//smartphone.PrintConstruct();
-	//
+	
+	Construct::PrintCopyConstructor();
+
 	//// Main function of ArraySum Program :
 
 	//Array::PrintArraySum();
@@ -121,9 +123,9 @@ int main()
 		//OopsConcept::PrintVirtualFunc();
 
 //main of DesignPattern Class:
-		DesignPattern::PrintSingleton();
-		DesignPattern2::PrintFactoryMethod();
-		DesignPattern3::PrintAbstractMethod();
+		//DesignPattern::PrintSingleton();
+		//DesignPattern2::PrintFactoryMethod();
+		//DesignPattern3::PrintAbstractMethod();
 		
 		system("pause");
 		return 0;

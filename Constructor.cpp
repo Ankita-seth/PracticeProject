@@ -87,10 +87,52 @@ void Construct::SmartPhone::PrintConstruct()
 
 }
 
+void Construct::box::setDimentions(int len, int bred, int hei)
+{
+	length = len;
+	breadth = bred;
+	height = hei;
+}
 
+void Construct::box::DispDimentions()
+{
+	cout << "Length of box is: " << length <<endl;
+	cout << "Breadth of box is: " << breadth << endl;
+	cout << "Height of box is: " << height << endl;
+}
+void Construct::Box::setDimen(int leng, int bre, int hei)
+{
+	*length = leng;
+	breadth = bre;
+	height = hei;
+}
 
+void Construct::Box::showData()
+{
 
+	cout << "Length of box is: " << *length << endl;
+	cout << "Breadth of box is: " << breadth << endl;
+	cout << "Height of box is: " << height << endl;
+}
+void Construct::PrintCopyConstructor()
+{
+	//Shallow Copy:
+	box b1,b3;
+	b1.setDimentions(14, 12, 16);
+	b1.DispDimentions();
+	box b2 = b1;
 
+	b2.DispDimentions();
 
+	//Assignment operator is quite similar to shallow copy constructor..
+	b3 = b1;
+	b3.DispDimentions();
+
+	Box B;
+	B.setDimen(15,12,10);
+	B.showData();
+	Box B1 = B;
+	B1.showData();
+}
 
 

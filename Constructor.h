@@ -44,7 +44,54 @@ namespace Construct
 
 
 	};
+	//Class for Shallow Copy Constructor and Assignment Operator
+	class box
+	{
+	private:
+		int length = 14;
+		int breadth = 12;
+		int height = 16;
 
+	public:
+		
+		void setDimentions(int len, int bred, int hei);
+		void DispDimentions();
+		
+	};
+	//Class For Deep Copy Constructor Example:
+
+	class Box
+	{
+	private:
+		int *length;
+		int breadth;
+		int height;
+	public:
+		Box()
+		{
+			length = new int;
+		}
+
+		void setDimen(int leng, int bre, int hei);
+		void showData();
+
+		Box(Box& obj)
+		{
+			length = new int;
+			*length = *(obj.length);
+			breadth = obj.breadth;
+			height = obj.height;
+		}
+		~Box()
+		{
+			delete length;
+		};
+
+	};
+	void PrintCopyConstructor();
+
+
+	
 }
 
 
