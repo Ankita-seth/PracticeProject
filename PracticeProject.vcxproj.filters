@@ -51,6 +51,12 @@
     <ClCompile Include="DesignPattern.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ImplementOfStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementOfCir_Que.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Class.h">
@@ -84,6 +90,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DesignPattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementOfStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementOfCir_Que.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

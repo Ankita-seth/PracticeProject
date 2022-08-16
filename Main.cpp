@@ -11,6 +11,9 @@
 #include "BitmapImporter.h"
 #include "Oops.h"
 #include "DesignPattern.h"
+#include "ImplementOfStack.h"
+#include "ImplementOfCir_Que.h"
+
 
 int main()
 {
@@ -55,7 +58,7 @@ int main()
 
 	//smartphone.PrintConstruct();
 	
-	Construct::PrintCopyConstructor();
+	//Construct::PrintCopyConstructor();
 
 	//// Main function of ArraySum Program :
 
@@ -127,6 +130,11 @@ int main()
 		//DesignPattern2::PrintFactoryMethod();
 		//DesignPattern3::PrintAbstractMethod();
 		
+//Implementation of Stack: 
+		//STACK_implementation::PrintStackImplementation();
+
+//Implementation of Circular Queue:
+		Cir_Que_implementation::PrintCirQueImplementation();
 		system("pause");
 		return 0;
 }

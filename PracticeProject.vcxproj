@@ -146,10 +146,12 @@
     <ClCompile Include="Count.cpp" />
     <ClCompile Include="C_string.cpp" />
     <ClCompile Include="DesignPattern.cpp" />
+    <ClCompile Include="ImplementOfCir_Que.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Oops.cpp" />
     <ClCompile Include="Pointer.cpp" />
     <ClCompile Include="File.cpp" />
+    <ClCompile Include="ImplementOfStack.cpp" />
     <ClCompile Include="Structure.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -161,8 +163,10 @@
     <ClInclude Include="C_string.h" />
     <ClInclude Include="DesignPattern.h" />
     <ClInclude Include="File.h" />
+    <ClInclude Include="ImplementOfCir_Que.h" />
     <ClInclude Include="Oops.h" />
     <ClInclude Include="Pointer.h" />
+    <ClInclude Include="ImplementOfStack.h" />
     <ClInclude Include="Structure.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
